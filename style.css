@@ -1,0 +1,316 @@
+body{
+    background-color:black;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:black;
+    color:rgb(77, 133, 77);
+    
+}
+        
+main{
+    background-color:rgb(77, 133, 77);
+    display:grid;
+    justify-content: center;
+    grid-column-start:1;
+    grid-column-end:3;
+    padding: 2rem;
+}
+aside{
+    background-image:url(fotosflag/fondo2.jpg);
+    display:grid;
+    grid-column-start:3 ;
+    grid-column-end:4 ;
+
+}
+.galeriafotos{
+    display:flex;
+    width: 600px;
+    height: 400;
+
+}
+
+.gal1{
+    width: 0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity:.8;
+    transition: .5s ease;
+    
+}
+.gal1:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter:contrast(120%);
+}
+.gal2{
+    width: 0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity:.8;
+    transition: .5s ease;
+    
+}
+.gal2:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter:contrast(120%);
+}
+.gal3{
+    width: 0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity:.8;
+    transition: .5s ease;
+    
+}
+.gal3:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter:contrast(120%);
+}
+
+/*PRESENTACION*/
+.bienvenidos{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: 500;
+}
+.presentacion{
+    display:flex;
+    font-size:2rem;
+    background-color:white;
+    color:black;
+
+}
+.recomendaciones{
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.div1aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+
+/*COMENTARIOS*/
+.titulo-principal {
+color:rgb(77, 133, 77);
+background-color:black;
+font-size: 5rem;
+justify-content:center;
+display:grid;
+padding: 1rem;
+}
+
+/*TABLA HORARIOS ATENCION*/
+.tablita{
+    border:2rem;
+    border-radius:2rem;
+    color:rgb(122, 177, 122);
+}
+.dias-tabla {
+    font-weight: bolder;
+    font: size 50px;;
+    color:black;
+    background-color:rgb(77, 133, 77);
+    border-radius: 2rem;
+   
+}
+.horario-tabla {
+    font-style: italic;
+    color:white;
+    background-color:rgb(77, 133, 77);
+    border-radius: 2rem;
+
+}
+/*NAV*/
+.nav-card{
+    display:flex;
+    direction:row;
+    justify-content: center;
+    gap: 15px;;
+    font-size:2.2rem;
+    padding:2;
+    background-color:white;
+    color:black
+    
+
+}
+.menu-lista li a{
+    background-color: white;
+    color: black;
+    padding: 2;
+}
+.partedearriba{
+    display: flex;
+}
+
+/*NUESTROS PRODUCTOS*/
+
+.tituloproductos{
+    font-size: 2.5rem;
+    font-style: italic;
+    display: flex;
+    font-weight: 500;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: 500;
+
+}
+.productosflag{
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bold;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: 500;
+    
+}
+/*NOSOTROS*/
+.nosotros{
+    background-color:rgb(77, 133, 77);
+    color:white
+}
+
+/*HEADER*/
+.menu-lista {
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    gap: 65px;
+    
+}
+.header {
+    background-color:black;
+    background-color:rgb(77, 133, 77);
+
+}
+/*TABLA QUIENES SOMOS*/
+.quienessomos{
+    background-color:rgb(77, 133, 77);
+    color:black;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: 500;
+}
+
+.quienessomos tr {
+    display: flex;
+}
+
+.quienessomos td {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quienessomos .labor {
+    text-align: center;
+    width: 75%;
+}
+
+.lossocios{ 
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: 500;
+
+}
+/*FOOTER*/
+.footer-style {
+    background-color:rgb(77, 133, 77);
+    color:black;
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+
+
+}
+/*FOTOS STYLE*/
+
+
+.fotomapa{
+    display: flex;
+    width:max-content;
+    
+}
+.foto-tarjeta{
+    width:400px;
+}
+
+
+
+.fotoflor{
+    display:flex;
+    width:100px;
+}
+.fotocharly{
+    display:flex;
+    width: 100px;;
+}
+.fotoflag{
+    display:flex;
+    width:max-content;
+
+}
+.logoflag{
+    display: flex;
+    width: 65px;
+    padding: 2;
+    margin:2;
+}
+.videoflag{
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+    height: auto;
+}
+
+.fotoaside1{
+    display:flex;
+    width: 350px;
+    padding:2;
+    gap:2;
+    align-content: center;
+}
+
+
+
+/*.header a:active,
+.header a:visited {
+    color: violet;
+}*/
